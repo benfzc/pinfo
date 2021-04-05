@@ -1,0 +1,4 @@
+#!/bin/bash
+
+processid=$1
+cat /proc/$1/stat | awk -F " " '{print "core", $39, $2, "pid", $1}'
