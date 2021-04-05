@@ -1,0 +1,2 @@
+# pinfo
+show process info
